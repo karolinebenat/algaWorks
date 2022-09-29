@@ -1,0 +1,100 @@
+@media (max-width:900px){
+
+	.depoimento{
+	text-align: center;
+	max-width: 900px;
+	}
+	
+	.apresentacao{
+		text-align: center;
+		max-width: 900px;
+	}
+	
+	.apresentacao h1{
+		font-size: 40px;
+	}
+	
+	.apresentacao p{
+		font-size: 18px;
+	}
+	
+	.apresentacao button {
+		width: 140px;
+		height: 40px;
+		border-radius: 10px;
+		background-color: #00008B;
+		color: white;
+		font-size: 14px;
+		border-style: none;
+		margin-bottom: 35px;
+	}
+	
+	.depoimento{
+		padding-top: 20px;
+		background-color: #CCC;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-top: none;
+		text-align: center;
+		font-size: 0.8181em;
+		font-size: 2.2rem;
+	}
+	
+	.depoimento img{
+		width: 60px;
+		height: 60px;
+		margin-bottom: 60px;
+		margin-right: 10px;
+		position: center;
+	}
+	
+	.joao img{
+		width: 60px;
+		height: 60px;
+		margin-right: -60px;
+	}
+	
+	.depoimento > blockquote{
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	.depoimento .joao {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.depoimento_joao img{
+		width: 180px;
+		height: 180px;
+		border-radius: 100px 100px 100px 100px;
+	}
+	
+	.depoimento_joao p{
+		text-align: center;
+		margin-top: -45px;
+	}
+
+	.caixa{
+		position: relative;
+		background-color: #c20303;	
+		font-size: 14px;
+		top: 17px;
+		left: 39%;
+		width: 100px;
+		height: 30px;	
+		color: white;
+		text-align: center;
+	}	
+	
+	.planos{
+		max-width: 900px;
+		grid-template-columns: 1fr;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	
+	}

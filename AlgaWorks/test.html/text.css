@@ -1,0 +1,17 @@
+p{
+
+	margin: 30px;
+	font-size: 25px;
+	border-width: 10px;
+	border-color: #DAD;
+	border-style: double;
+	
+}
+
+.Estagiarios{
+	margin: 0px 100px 0px 100px;
+	display: inline-flex;
+	font-family: Arial;
+	width: auto;
+
+}
